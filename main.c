@@ -1,7 +1,7 @@
 #include "solve.h"
-#include "input.c"
+#include "input.h"
 #include <stdio.h>
-
+#include <stdlib.h>
 
 
 int main(){
@@ -10,7 +10,7 @@ int main(){
     double a=input('a');
     double b=input('b');
     double c=input('c');
-    printf("\n",a,b,c);
+    printf("\n");
 
     //solve equation
     double* answers=(double*)calloc(2,sizeof(double));
