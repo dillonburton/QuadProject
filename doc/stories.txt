@@ -1,12 +1,15 @@
-- solve quadratic with a command line interface program
-- linux + gcc
-- input can be valid floats
-- output: 2 roots, double root, complex root
-	- only print out 2 roots or double roots
-- want full precision and accuracy...?
-	- if not, return an indication of issues
-	- give some hint that answer is not accurate or precise
+- solve quadratic with a command line interface program, 2 hours, risk: 1, 90% complete
+	- linux + gcc
+	
+- input can be valid floats, 30 min, risk 2 (floating point accuracy issues), 10% complete
+	- want full precision and accuracy...?
+		- if not, return an indication of issues
+		- give some hint that answer is not accurate or precise
 
+- output: 2 roots, double root, complex root, 20 min, risk 1, 100%
+	- only print out 2 roots or double roots, no complex roots
+	
+- unit testing, seatest, 3 hours, risk 3, 30% complete
 
 thought: extend to OSX or Windows on later release?
 		 take input from file or script?
