@@ -1,0 +1,44 @@
+# Quad Project for CS 4900
+### by Dillon, JJ, Corey
+
+## Notes
+
+root directory: 
+	README
+	makefile
+	
+	
+	doc directory
+		- stories
+		- IEEE 
+		- make copies not web links
+		- documentation on solving quadratics
+		- accuracy and precision - difference, relative error and absolute error 
+		
+	spikes
+		- IEEE
+		- quad
+		- acc/precision
+			- quadratic equation tests
+				- ok, INF, NaN, no accuracy, no precision, condition
+				
+	source directory
+		- main, io, desc
+			
+	build directory
+		
+		
+		
+stories:
+	- solve quadratic with a command line interface program
+	- linux + gcc
+	- input can be valid floats
+	- output: 2 roots, double root, complex root
+		- only print out 2 roots or double roots
+	- want full precision and accuracy...?
+		- if not, return an indication of issues
+		- give some hint that answer is not accurate or precise
+	
+	
+	thought: extend to OSX or Windows on later release?
+			 take input from file or script?
