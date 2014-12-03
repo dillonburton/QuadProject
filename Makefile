@@ -1,5 +1,10 @@
-make: main.c input.c solve.c
-	gcc -o quad main.c input.c solve.c -lm
-	./quad
+all:
+	cd ./src && \
+	gcc -o quad main.c input.c solve.c seatest.c -lm
+test:
+	cd ./src && \
+	gcc -o quad main.c input.c solve.c seatest.c -lm; \
+	./quad debug
 clean:
-	rm quad *.o
+	cd ./src && \
+	rm quad
